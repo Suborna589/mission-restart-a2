@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issue",
+    "description": "Customer unable to login with correct credentials.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-20"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed",
+    "description": "Transaction failed but amount was deducted.",
+    "customer": "Sadia Khan",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-02-21"
+  },
+  {
+    "id":1003,
+    "title": "Website Slow",
+    "description": "Website loading very slowly on mobile devices.",
+    "customer": "Arif Hossain",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-22"
+  },
+  {
+    "id":1004,
+    "title": "Account Verification",
+    "description": "Email verification link not working.",
+    "customer": "Nusrat Jahan",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-02-23"
+  },
+  {
+    "id":1005,
+    "title": "Feature Request",
+    "description": "Request to add dark mode in the application.",
+    "customer": "Imran Ali",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-02-24"
+  },
+  {
+    "id": 1006,
+    "title": "Bug in Checkout",
+    "description": "Error occurs during checkout process.",
+    "customer": "Farhana Ahmed",
+    "priority": "MEDIUM",
+    "status": "In-Progress",
+    "createdAt": "2026-02-25"
+  },
+  {
+    "id": 1007,
+    "title": "Password Reset",
+    "description": "Password reset email not received.",
+    "customer": "Tanvir Hasan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-02-26"
+  },
+  {
+    "id": 1008,
+    "title": "Order Not Delivered",
+    "description": "Order status shows delivered but customer did not receive it.",
+    "customer": "Mehedi Hasan",
+    "priority": "MEDIUM",
+    "status": "In-Progress",
+    "createdAt": "2026-02-27"
+  },
+  {
+    "id":1009,
+    "title": "Profile Update Issue",
+    "description": "Unable to update profile information.",
+    "customer": "Ritu Das",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-28"
+  },
+  {
+    "id": 1010,
+    "title": "Notification Error",
+    "description": "Push notifications not working properly.",
+    "customer": "Sabbir Rahman",
+    "priority": "Low",
+    "status": "In-Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 1011,
+    "title": "App Crash",
+    "description": "Application crashes on startup.",
+    "customer": "Anika Sultana",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 1012,
+    "title": "Refund Request",
+    "description": "Customer requested refund for duplicate payment.",
+    "customer": "Jahidul Islam",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03"
+  }
+]
