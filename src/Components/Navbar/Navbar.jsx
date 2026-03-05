@@ -33,8 +33,8 @@ const Navbar = () => {
         <li><a>Contact</a></li>
     </ul>
   </div>
-  <div className="">
-    <a className="btn text-white font-bold bg-gradient-to-r from-green-400 to-blue-500 "><FaPlus></FaPlus>New Ticket</a>
+  <div className="ml-4">
+    <a className="btn text-white font-bold bg-gradient-to-r  from-[#632ee3] to-[#9f62f2] "><FaPlus></FaPlus>New Ticket</a>
   </div>
 </div>
             
