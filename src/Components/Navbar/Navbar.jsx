@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaPlus } from "react-icons/fa6";
 
-const Navbar = () => {
+const Navbar=() => {
     return (
         <div> 
-            <div className="navbar max-w-[1300px] mx-auto">
+            <div className="navbar max-w-[1350px] mx-auto">
         <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ const Navbar = () => {
         <li><a>Contact</a></li>
     </ul>
   </div>
-  <div className="ml-4">
+  <div className=" ml-16 md:ml-4">
     <a className="btn text-white font-bold bg-gradient-to-r  from-[#632ee3] to-[#9f62f2] "><FaPlus></FaPlus>New Ticket</a>
   </div>
 </div>

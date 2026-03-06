@@ -4,7 +4,7 @@
     "title": "Login Issue",
     "description": "Customer unable to login with correct credentials.",
     "customer": "Rahim Uddin",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "Open",
     "createdAt": "2026-02-20"
   },
@@ -13,8 +13,8 @@
     "title": "Payment Failed",
     "description": "Transaction failed but amount was deducted.",
     "customer": "Sadia Khan",
-    "priority": "Critical",
-    "status": "In Progress",
+    "priority": "MEDIUM",
+    "status": "In-Progress",
     "createdAt": "2026-02-21"
   },
   {
@@ -22,7 +22,7 @@
     "title": "Website Slow",
     "description": "Website loading very slowly on mobile devices.",
     "customer": "Arif Hossain",
-    "priority": "Medium",
+    "priority": "MEDIUM",
     "status": "Open",
     "createdAt": "2026-02-22"
   },
@@ -31,8 +31,8 @@
     "title": "Account Verification",
     "description": "Email verification link not working.",
     "customer": "Nusrat Jahan",
-    "priority": "High",
-    "status": "Resolved",
+    "priority": "HIGH",
+    "status": "In-Progress",
     "createdAt": "2026-02-23"
   },
   {
@@ -40,7 +40,7 @@
     "title": "Feature Request",
     "description": "Request to add dark mode in the application.",
     "customer": "Imran Ali",
-    "priority": "Low",
+    "priority": "LOW",
     "status": "Open",
     "createdAt": "2026-02-24"
   },
@@ -58,7 +58,7 @@
     "title": "Password Reset",
     "description": "Password reset email not received.",
     "customer": "Tanvir Hasan",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "Open",
     "createdAt": "2026-02-26"
   },
@@ -76,7 +76,7 @@
     "title": "Profile Update Issue",
     "description": "Unable to update profile information.",
     "customer": "Ritu Das",
-    "priority": "Medium",
+    "priority": "MEDIUM",
     "status": "Open",
     "createdAt": "2026-02-28"
   },
@@ -85,7 +85,7 @@
     "title": "Notification Error",
     "description": "Push notifications not working properly.",
     "customer": "Sabbir Rahman",
-    "priority": "Low",
+    "priority": "LOW",
     "status": "In-Progress",
     "createdAt": "2026-03-01"
   },
@@ -103,7 +103,7 @@
     "title": "Refund Request",
     "description": "Customer requested refund for duplicate payment.",
     "customer": "Jahidul Islam",
-    "priority": "High",
+    "priority": "HIGH",
     "status": "In-Progress",
     "createdAt": "2026-03-03"
   }

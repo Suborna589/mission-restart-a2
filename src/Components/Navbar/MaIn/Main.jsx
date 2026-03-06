@@ -1,35 +1,62 @@
 import React, { use } from 'react';
 import Customer from '../Customer/Customer';
 
-const Main = ({customerPromise}) => {
+import TaskStatus from './TaskStatus';
+import ResolveTask from './ResolveTask';
+
+
+const Main = ({customerPromise,setcustomerStatus,customerStatus,resolveTask,resolved}) => {
     const customerData =use(customerPromise);
-    console.log(customerData);
+ 
     return (
-        <div className='mt-24 max-w-[1250px] mx-auto' > 
-           <div className='flex justify-between'> 
+        <div className='mt-12 max-w-[1300px] mx-auto' > 
+           <div className='md:flex justify-evenly items-center' > 
 
              <div>
-                <h1 className='text-2xl font-semibold'>Customer Tickets</h1>
-             <div className='grid grid-cols-1 gap-5  md:grid-cols-2'>
+                <h1 className='text-2xl font-semibold   '>Customer Tickets</h1>
+             <div className='grid  gap-5  md:grid-cols-2'>
 
                 {
                     customerData.map(customers => <Customer customers={customers} 
+                     
+                       customerStatus={customerStatus}
+                        setcustomerStatus={setcustomerStatus}
+
                         key={customers.id}></Customer>)
 
                 }
              </div>
              </div>
-      
-      
-
-
 
         <div>
-            <h1 className='mr-14 text-2xl font-semibold'>Task Status</h1>
+            <h1 className='mr-8 text-2xl font-semibold'>Task Status</h1>
+           
+            {
+                customerStatus.map(customers=><TaskStatus customers={customers} 
+                    resolveTask={resolveTask}
+                  
+                   
+               
+                    key={customers.id}></TaskStatus>)
+
+
+            } 
+
+             
+         <h1 className='mr-1 text-xl font-medium mt-12' > Resolved Task</h1>
+         {
+            resolved.map(task=><ResolveTask task={task} key={task.id}></ResolveTask>)
+         }
+
+        
         </div>
+
+        </div>
+
+   
            </div>
             
-        </div>
+       
     );
 };
 
