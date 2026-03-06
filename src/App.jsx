@@ -20,17 +20,14 @@ function App() {
   const[resolved,setResolved]=useState([]);
 
 
-  // const resolveTask =(resolve)=>{
-  //   // console.log(resolve);
-  //  const filtterTask = customerStatus.filter(resol => resol.id  !== resolve.id)
-  //  setcustomerStatus(filtterTask);
-  // }  
+ 
 
 
   const resolveTask = (task)=>{
     setcustomerStatus((prev)=>
     prev.filter((resol)=> resol.id !== resol.id)
   ); 
+ 
   setResolved((prev)=>[...prev,task]);
 
   

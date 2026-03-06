@@ -29,7 +29,7 @@ const customerTicketAdd =(customers)=>{
     return (
         <div>
 
-    <div  onClick={()=>{customerTicketAdd(customers)}}  className="card bg-base-100 w-[460px] shadow-sm ">
+    <div  onClick={()=>{customerTicketAdd(customers)}}  className="card bg-base-100 w-[430px] shadow-sm ">
   <div className="card-body">
    <div className='flex justify-between'>
      <h2 className="card-title text-lg font-medium">{title}</h2>

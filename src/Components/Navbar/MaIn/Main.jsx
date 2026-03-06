@@ -9,7 +9,7 @@ const Main = ({customerPromise,setcustomerStatus,customerStatus,resolveTask,reso
     const customerData =use(customerPromise);
  
     return (
-        <div className='mt-12 max-w-[1300px] mx-auto' > 
+        <div className='mt-22 max-w-[1300px] mx-auto mb-12' > 
            <div className='md:flex justify-evenly items-center' > 
 
              <div>

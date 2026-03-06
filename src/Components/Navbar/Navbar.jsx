@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPlus } from "react-icons/fa6";
+import supportlogo from '../../assets/supportlogo.jpg'
 
 const Navbar=() => {
     return (
@@ -21,7 +22,11 @@ const Navbar=() => {
         <li><a>Contact</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">CS- Ticket System</a>
+    <div className='flex items-center '>
+      <img src={supportlogo} alt=""  className='w-32 h-32'/>
+      <a className=" text-xl">CS- Support Care</a>
+    </div>
+    
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
